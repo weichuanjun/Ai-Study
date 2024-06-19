@@ -81,3 +81,37 @@ print(score)
 from sklearn.model_selection import cross_val_score 
 scores = cross_val_score(linear_model.LinearRegression(), X_test, y_test, cv=5)
 print("Cross-validation scores:", scores)
+
+#文本清洗
+from gensim.parsing import strip_tags, strip_numeric, strip_multiple_whitespaces, stem_text, strip_punctuation, remove_stopwords
+from gensim.parsing import preprocess_string
+import re
+# 将字符串转换为小写的lambda函数
+transform_to_lower = lambda s: s.lower()
+# 移除单字符（用正则表达式）的lambda函数
+remove_single_char = lambda s: re.sub(r'\s+\w{1}\s+', '', s)
+
+# 定义一个名为 CLEAN_FILTERS 的列表，包含一组预处理过滤器。这些过滤器按顺序执行，依次对文本进行处理。过滤器包括：
+# strip_tags: 移除 HTML 标签。
+# strip_numeric: 移除数字。
+# strip_punctuation: 移除标点符号。
+# strip_multiple_whitespaces: 移除多余的空白字符。
+# transform_to_lower: 转换为小写。
+# remove_stopwords: 移除停用词。
+# remove_single_char: 移除单字符单词。
+CLEAN_FILTERS = [strip_tags,
+                strip_numeric,
+                strip_punctuation, 
+                strip_multiple_whitespaces, 
+                transform_to_lower,
+                remove_stopwords,
+                remove_single_char]
+
+#定义一个清洗pipline方法
+def cleaning_pipe(document):
+    processed_words = preprocess_string(document, CLEAN_FILTERS)
+    return processed_words
+
+# Apply the cleaning pipe on the news data
+
+pd_df['clean_text'] = pd_df['news'].apply(cleaning_pipe)
