@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/user/Ai-Study/MLFlow_Houseprice_predict/mlruns/593623705617405727/50adb8f6b9bf4b4988d3a54f12bb4874/artifacts
+deleted_time: 1718976276389
+end_time: 1718976227860
+entry_point_name: ''
+experiment_id: '593623705617405727'
+lifecycle_stage: deleted
+run_id: 50adb8f6b9bf4b4988d3a54f12bb4874
+run_name: Ridge_evaluation
+run_uuid: 50adb8f6b9bf4b4988d3a54f12bb4874
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1718976226922
+status: 3
+tags: []
+user_id: user

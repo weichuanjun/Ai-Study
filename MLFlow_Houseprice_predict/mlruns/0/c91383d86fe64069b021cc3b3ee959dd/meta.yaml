@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/user/Ai-Study/MLFlow_Houseprice_predict/mlruns/0/c91383d86fe64069b021cc3b3ee959dd/artifacts
+deleted_time: 1718961012767
+end_time: null
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: c91383d86fe64069b021cc3b3ee959dd
+run_name: adaptable-colt-151
+run_uuid: c91383d86fe64069b021cc3b3ee959dd
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1718960529855
+status: 1
+tags: []
+user_id: user

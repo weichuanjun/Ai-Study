@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/user/Ai-Study/MLFlow_Houseprice_predict/mlruns/593623705617405727/fb719c7943184d3eb5198fc29f721a2d/artifacts
+deleted_time: 1718976215862
+end_time: 1718975551129
+entry_point_name: ''
+experiment_id: '593623705617405727'
+lifecycle_stage: deleted
+run_id: fb719c7943184d3eb5198fc29f721a2d
+run_name: LinearRegression_evaluation
+run_uuid: fb719c7943184d3eb5198fc29f721a2d
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1718975551114
+status: 3
+tags: []
+user_id: user

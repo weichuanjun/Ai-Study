@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/user/Ai-Study/MLFlow_Houseprice_predict/mlruns/0/4a815c2295994fb68f6a980dc614fd91/artifacts
+deleted_time: 1718956958929
+end_time: 1718956661987
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: 4a815c2295994fb68f6a980dc614fd91
+run_name: Lasso
+run_uuid: 4a815c2295994fb68f6a980dc614fd91
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1718956661032
+status: 3
+tags: []
+user_id: user

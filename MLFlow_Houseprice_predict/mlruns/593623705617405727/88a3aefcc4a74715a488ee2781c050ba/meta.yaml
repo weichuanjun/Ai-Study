@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/user/Ai-Study/MLFlow_Houseprice_predict/mlruns/593623705617405727/88a3aefcc4a74715a488ee2781c050ba/artifacts
+deleted_time: 1718976215860
+end_time: 1718975551170
+entry_point_name: ''
+experiment_id: '593623705617405727'
+lifecycle_stage: deleted
+run_id: 88a3aefcc4a74715a488ee2781c050ba
+run_name: SVR_evaluation
+run_uuid: 88a3aefcc4a74715a488ee2781c050ba
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1718975551159
+status: 3
+tags: []
+user_id: user

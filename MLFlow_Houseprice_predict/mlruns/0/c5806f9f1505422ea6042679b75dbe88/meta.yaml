@@ -1,0 +1,16 @@
+artifact_uri: file:///Users/user/Ai-Study/MLFlow_Houseprice_predict/mlruns/0/c5806f9f1505422ea6042679b75dbe88/artifacts
+deleted_time: 1718956958931
+end_time: 1718956455371
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: deleted
+run_id: c5806f9f1505422ea6042679b75dbe88
+run_name: RandomForest
+run_uuid: c5806f9f1505422ea6042679b75dbe88
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1718956447655
+status: 3
+tags: []
+user_id: user
