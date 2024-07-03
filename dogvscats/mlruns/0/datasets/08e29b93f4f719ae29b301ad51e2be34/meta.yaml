@@ -1,0 +1,10 @@
+digest: 681bedef
+name: dataset
+profile: '{"features_shape": [10000, 784], "features_size": 7840000, "features_nbytes":
+  62720000, "targets_shape": [10000], "targets_size": 10000, "targets_nbytes": 10000}'
+schema: '{"mlflow_tensorspec": {"features": "[{\"type\": \"tensor\", \"tensor-spec\":
+  {\"dtype\": \"float64\", \"shape\": [-1, 784]}}]", "targets": "[{\"type\": \"tensor\",
+  \"tensor-spec\": {\"dtype\": \"uint8\", \"shape\": [-1]}}]"}}'
+source: '{"tags": {"mlflow.user": "user", "mlflow.source.name": "/opt/anaconda3/lib/python3.11/site-packages/ipykernel_launcher.py",
+  "mlflow.source.type": "LOCAL"}}'
+source_type: code
